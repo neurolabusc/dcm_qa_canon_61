@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.209,
+	"ImagingFrequency": 123.2086343,
 	"Manufacturer": "Canon",
 	"ManufacturersModelName": "Galan 3T",
 	"InstitutionName": "GHU",
@@ -9,10 +9,11 @@
 	"InstitutionAddress": "-------------",
 	"DeviceSerialNumber": "9143",
 	"StationName": "Galan 3T",
-	"BodyPartExamined": "HEAD",
+	"BodyPart": "HEAD",
 	"PatientPosition": "HFS",
 	"SoftwareVersions": "V6.1SP3002*",
 	"MRAcquisitionType": "2D",
+	"StudyDescription": "TEST 3TC",
 	"SeriesDescription": "DTI_PA-COR_20d",
 	"ProtocolName": "DTI_PA-COR_20d",
 	"ScanningSequence": "SE\\EP",
@@ -48,5 +49,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }

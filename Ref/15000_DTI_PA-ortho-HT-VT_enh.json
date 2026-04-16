@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.209,
+	"ImagingFrequency": 123.2087535,
 	"Manufacturer": "Canon",
 	"ManufacturersModelName": "Galan 3T",
 	"InstitutionName": "GHU",
@@ -9,13 +9,15 @@
 	"InstitutionAddress": "-------------",
 	"DeviceSerialNumber": "9143",
 	"StationName": "Galan 3T",
-	"BodyPartExamined": "HEAD",
+	"BodyPart": "HEAD",
 	"PatientPosition": "HFS",
 	"SoftwareVersions": "V6.1SP3002*",
 	"MRAcquisitionType": "2D",
+	"StudyDescription": "TEST 3TC",
 	"SeriesDescription": "DTI_PA-ortho-HT-VT",
 	"ProtocolName": "DTI_PA-ortho-HT-VT",
-	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE"],
+	"PulseSequenceName": "DTI_PA-ortho-HT-",
+	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 15000,
 	"AcquisitionTime": "16:13:51.000000",
 	"AcquisitionNumber": 1,
@@ -29,7 +31,8 @@
 	"PercentSampling": 100,
 	"EchoTrainLength": 30,
 	"PartialFourierDirection": "PHASE",
-	"AcquisitionMatrixPE": 80,
+	"PhaseEncodingSteps": 80,
+	"FrequencyEncodingSteps": 80,
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "OTHER",
@@ -44,5 +47,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
