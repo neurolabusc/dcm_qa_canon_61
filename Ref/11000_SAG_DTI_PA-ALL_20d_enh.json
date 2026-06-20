@@ -16,7 +16,7 @@
 	"StudyDescription": "TEST 3TC",
 	"SeriesDescription": "SAG_DTI_PA-ALL_20d",
 	"ProtocolName": "SAG_DTI_PA-ALL_20d",
-	"PulseSequenceName": "SAG_DTI_PA-ALL_2",
+	"SequenceName": "SAG_DTI_PA-ALL_2",
 	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 11000,
 	"AcquisitionTime": "16:05:29.000000",
@@ -36,6 +36,9 @@
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "OTHER",
+	"ParallelReductionFactorOutOfPlane": 1,
+	"AcquisitionDuration": 150,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 1562.5,
 	"PhaseEncodingAxis": "i",
 	"ImageOrientationPatientDICOM": [
@@ -46,6 +49,7 @@
 		0.211578,
 		-0.922842	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
+	"BidsGuess": ["dwi","_dir-PA_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

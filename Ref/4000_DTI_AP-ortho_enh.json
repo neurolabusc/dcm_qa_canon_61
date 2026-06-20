@@ -16,7 +16,7 @@
 	"StudyDescription": "TEST 3TC",
 	"SeriesDescription": "DTI_AP-ortho",
 	"ProtocolName": "DTI_AP-ortho",
-	"PulseSequenceName": "DTI_AP-ortho",
+	"SequenceName": "DTI_AP-ortho",
 	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 4000,
 	"AcquisitionTime": "15:44:41.000000",
@@ -36,6 +36,9 @@
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "OTHER",
+	"ParallelReductionFactorOutOfPlane": 1,
+	"AcquisitionDuration": 150,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 1562.5,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -46,6 +49,7 @@
 		1,
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["dwi","_dir-AP_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

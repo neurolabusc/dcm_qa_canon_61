@@ -18,6 +18,7 @@
 	"ProtocolName": "SAG_DTI_PA-COR_20d",
 	"ScanningSequence": "SE\\EP",
 	"SequenceVariant": "NONE",
+	"PulseSequenceType": "Spin Echo EPI",
 	"ScanOptions": "PFP\\NONE",
 	"SequenceName": "SEEPI2D+0.7",
 	"ImageType": ["ORIGINAL", "PRIMARY", "GDC"],
@@ -38,6 +39,7 @@
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "SPEEDER",
+	"AcquisitionDuration": 150,
 	"PixelBandwidth": 1563,
 	"PhaseEncodingAxis": "i",
 	"ImageOrientationPatientDICOM": [
@@ -49,5 +51,5 @@
 		-0.939507	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

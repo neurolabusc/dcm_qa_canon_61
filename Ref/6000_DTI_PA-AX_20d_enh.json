@@ -16,7 +16,7 @@
 	"StudyDescription": "TEST 3TC",
 	"SeriesDescription": "DTI_PA-AX_20d",
 	"ProtocolName": "DTI_PA-AX_20d",
-	"PulseSequenceName": "DTI_PA-AX_20d",
+	"SequenceName": "DTI_PA-AX_20d",
 	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 6000,
 	"AcquisitionTime": "15:50:36.000000",
@@ -36,6 +36,9 @@
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "OTHER",
+	"ParallelReductionFactorOutOfPlane": 1,
+	"AcquisitionDuration": 150,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 1562.5,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -46,6 +49,7 @@
 		0.939904,
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["dwi","_dir-PA_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
